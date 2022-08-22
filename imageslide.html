@@ -1,0 +1,48 @@
+<html>
+    <head>
+        
+        <tittle>
+         <style>
+            body{
+                    background-color: rgb(1, 64, 114);
+                }
+             h1{
+                 font-size: 2.1rem;
+                 line-height: 1.4;
+                 letter-spacing: 0.5rem;
+                 text-align: center;
+                 color: rgb(223, 154, 250);
+                 margin-top: 50px;
+             }
+             .maindiv{
+                 width: 70%;
+                 height: 400px;
+                 position: absolute;
+                 left: 50%;
+                 top: 50%;
+                 transform: translate(-50%,-50%);
+                 background-image: url(h.jpg);
+                 background-size:100% 100%; 
+                 box-shadow: 1px 2px 10px 5px rgb(4, 184, 249);
+                 animation: slider 9s infinite linear;
+                 
+             }
+             @keyframes slider{
+                 0%{   background-image: url(R.jpg); }
+                 40%{ background-image: url(m.jpg);  }
+                 75%{   background-image: url(j.jpg); }
+                 
+             }
+    
+            
+            </style>  
+        </tittle>
+    </head>
+    <body>
+    <h1>IMAGE SLIDING </h1>
+        <div class="maindiv">
+        
+        </div>
+    
+    </body>
+</html>
